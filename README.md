@@ -10,7 +10,7 @@ The innovation aims to assist farmers in developing countries in detecting adult
 
 ### Project Overview
 
-In order to fulfill the goals of this research, the team needed an Android APP which can help farmers from Tanzania identify whether the fertilizer they use is adulterated based on the fertilizer images they take.
+In order to fulfill the goals of this research, the team needed an Android APP which can help farmers from Tanzania identify whether the fertilizer they use is adulterated based on the fertilizer images they take. You can get started with installation of the APP [here](https://github.com/wenjiey2/Fertilizer_Adulteration_Detection/tree/main/app#installation) and the DNN model [here](https://github.com/wenjiey2/Fertilizer_Adulteration_Detection/tree/main/model/model_2.2#model-22).
 
 ### My Work
 
