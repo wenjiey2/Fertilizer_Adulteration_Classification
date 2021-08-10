@@ -1,4 +1,4 @@
-# Machine Learning to Detect Fertilizer Adulteration
+# Fertilizer Adulteration Classification with Deep Learning
 
 ### Research Team
 
