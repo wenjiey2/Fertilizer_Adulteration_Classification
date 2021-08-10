@@ -1,0 +1,51 @@
+
+When threshold is 1: 
+Test dataset confusion matrix: 0, 135, 0, 157
+135 images misclassified
+
+When threshold is 2: 
+Test dataset confusion matrix: 105, 30, 1, 156
+31 images misclassified
+
+When threshold is 3: 
+Test dataset confusion matrix: 126, 9, 4, 153
+13 images misclassified
+
+When threshold is 4: 
+Test dataset confusion matrix: 131, 4, 4, 153
+8 images misclassified
+
+When threshold is 5: 
+Test dataset confusion matrix: 135, 0, 5, 152
+5 images misclassified
+
+When threshold is 6: 
+Test dataset confusion matrix: 135, 0, 5, 152
+5 images misclassified
+
+When threshold is 7: 
+Test dataset confusion matrix: 135, 0, 6, 151
+6 images misclassified
+
+When threshold is 8: 
+Test dataset confusion matrix: 135, 0, 8, 149
+8 images misclassified
+
+When threshold is 9: 
+Test dataset confusion matrix: 135, 0, 8, 149
+8 images misclassified
+
+When threshold is 10: 
+Test dataset confusion matrix: 135, 0, 15, 142
+15 images misclassified
+
+When threshold is 11: 
+Test dataset confusion matrix: 135, 0, 15, 142
+15 images misclassified
+
+When threshold is 12: 
+Test dataset confusion matrix: 135, 0, 16, 141
+16 images misclassified
+Optimal threshold: 5
+
+Accuracy for optimal threshold:  0.983

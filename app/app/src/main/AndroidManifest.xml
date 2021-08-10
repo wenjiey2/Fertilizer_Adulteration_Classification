@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="edu.illinois.fertilizeradulterationdetection">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />-->
+
+    <!--    <uses-feature-->
+    <!--        android:name="android.hardware.camera"-->
+    <!--        android:required="false" />-->
+
+    <!--    <uses-feature android:name="android.hardware.location.gps"/>-->
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+
+        <activity
+            android:name=".prediction.InstructionActivity"
+            android:label="@string/title_activity_instruction"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".prediction.PredictActivity" />
+        <activity android:name=".userProfile.StoreGalleryActivity" />
+        <activity android:name=".userProfile.DataGalleryActivity" />
+        <activity android:name=".prediction.InfoActivity" />
+        <activity android:name=".prediction.FnfActivity" />
+        <activity
+            android:name=".userProfile.SignUpActivity"
+            android:label="UserProfileActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".userProfile.LogInActivity"
+            android:label="LogInActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".userProfile.VerificationActivity"
+            android:label="VerificationActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".userProfile.InitActivity"
+            android:label="FAD"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".prediction.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+
+</manifest>

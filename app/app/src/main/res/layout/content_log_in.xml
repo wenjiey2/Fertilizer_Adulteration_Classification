@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/user_log_in"
+    tools:showIn="@layout/activity_log_in">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="111dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/ic_account_box"
+            tools:layout_editor_absoluteX="150dp"
+            tools:layout_editor_absoluteY="39dp" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Existing User Log In"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            tools:layout_editor_absoluteX="168dp"
+            tools:layout_editor_absoluteY="200dp"
+            tools:padding="20dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="46dp"
+                android:layout_height="54dp"
+                android:padding="10dp"
+                android:text="+" />
+
+            <Spinner
+                android:id="@+id/spinnerCountries"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:padding="10dp"
+                android:text="@string/phone_number"
+                 />
+
+            <EditText
+                android:id="@+id/user_phone_number_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="phone"
+                android:padding="10dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="384dp"
+            android:layout_height="70dp">
+
+            <TextView
+                android:id="@+id/enter_email_text"
+                android:layout_width="143dp"
+                android:layout_height="46dp"
+                android:text="Email Address:" />
+
+            <EditText
+                android:id="@+id/user_email_input"
+                android:layout_width="232dp"
+                android:layout_height="61dp"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="384dp"
+            android:layout_height="70dp">
+
+            <TextView
+                android:id="@+id/enter_pw_text"
+                android:layout_width="143dp"
+                android:layout_height="46dp"
+                android:text="Enter Password:" />
+
+            <EditText
+                android:id="@+id/user_pw_input"
+                android:layout_width="232dp"
+                android:layout_height="61dp"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/profile_submit_button_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Login"
+            app:layout_editor_absoluteX="69dp"
+            app:layout_editor_absoluteY="619dp"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/profile_submit_button_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email Login"
+            app:layout_editor_absoluteX="235dp"
+            app:layout_editor_absoluteY="619dp"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

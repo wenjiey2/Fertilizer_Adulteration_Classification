@@ -1,0 +1,80 @@
+{
+  "project_info": {
+    "project_number": "130686749427",
+    "firebase_url": "https://fertilizer-252e7.firebaseio.com",
+    "project_id": "fertilizer-252e7",
+    "storage_bucket": "fertilizer-252e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130686749427:android:fcbf53063d51c3ee9d8586",
+        "android_client_info": {
+          "package_name": "edu.illinois.fertillizeradulterationdetection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130686749427-e52j6hsshuh4rls2kf1bsa7ndfe37ddd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.illinois.fertillizeradulterationdetection",
+            "certificate_hash": "f997099e86a72affdf84e7879615f6702bbccafa"
+          }
+        },
+        {
+          "client_id": "130686749427-fjjb17imgcf3oivg5surkpemjgn1feba.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.illinois.fertillizeradulterationdetection",
+            "certificate_hash": "a8bcea99397db0ee9ec947938ffde5aabe7bc1e0"
+          }
+        },
+        {
+          "client_id": "130686749427-i3l3ka3mqqt60d9jhtojkf148m592d5h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.illinois.fertillizeradulterationdetection",
+            "certificate_hash": "b66d4fe73407d69c2ae6c313f02d95a054e7c68f"
+          }
+        },
+        {
+          "client_id": "130686749427-ufpnfslnnn0cpijo4avf74bto26i5j01.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.illinois.fertillizeradulterationdetection",
+            "certificate_hash": "4f8812f9baa6aab31924d386fbc26a2631a7b77f"
+          }
+        },
+        {
+          "client_id": "130686749427-uvgm1bspo3gijkounkngi625915kpbpq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.illinois.fertillizeradulterationdetection",
+            "certificate_hash": "eabb8e6e928e6ed3081d939f12c07c7513cbbb97"
+          }
+        },
+        {
+          "client_id": "130686749427-vr1favi7fcq5a0m40b3cae6i5mmflo8p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSEaaRh-vRw_mp7AAX3BaYR-MMRXgXcbg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130686749427-vr1favi7fcq5a0m40b3cae6i5mmflo8p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

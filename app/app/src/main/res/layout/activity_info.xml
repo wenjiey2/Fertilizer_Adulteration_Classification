@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.illinois.fertilizeradulterationdetection.prediction.InfoActivity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/info_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/background_image"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/prediction_placeholder" />
+
+        <LinearLayout
+            android:id="@+id/note"
+            android:layout_above="@id/linear"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:orientation="horizontal"
+            android:background="@color/black"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:paddingStart="10dp"
+                android:text="@string/note"
+                tools:ignore="RtlSymmetry" />
+
+            <EditText
+                android:id="@+id/note_text"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/white"
+                android:textSize="20sp"
+                android:inputType="textMultiLine"
+                tools:ignore="LabelFor"
+                android:autofillHints="" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/note"
+            android:layout_alignEnd="@id/note"
+            android:orientation="vertical"
+            android:layout_above="@id/stores"
+            android:background="@color/black"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:text="Save to a ..."/>
+
+            <RadioGroup
+                android:id="@+id/radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="existing store"
+                    android:textColor="@color/white"
+                    android:paddingEnd="10dp"
+                    android:textSize="20sp"
+                    android:onClick="checkButton"
+                    tools:ignore="RtlSymmetry"
+                    android:buttonTint="@color/white"/>
+
+                <RadioButton
+                    android:id="@+id/radio2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="new store"
+                    android:textColor="@color/white"
+                    android:paddingEnd="10dp"
+                    android:textSize="20sp"
+                    android:onClick="checkButton"
+                    tools:ignore="RtlSymmetry"
+                    android:buttonTint="@color/white"/>
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/stores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/linear"
+            android:layout_alignEnd="@id/linear"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal"
+            android:background="@color/black"
+            android:layout_marginTop="10dp">
+
+            <Spinner
+                android:layout_centerInParent="true"
+                android:id="@+id/existingStore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:id="@+id/newStore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerHorizontal="true"
+                android:visibility="gone">
+
+
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="horizontal">-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:textSize="20sp"-->
+<!--                        android:paddingStart="10dp"-->
+<!--                        android:text="Store: "-->
+<!--                        tools:ignore="RtlSymmetry" />-->
+
+<!--                    <EditText-->
+<!--                        android:gravity="center"-->
+<!--                        android:id="@+id/storeName"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:backgroundTint="@color/white"-->
+<!--                        android:textSize="20sp"-->
+<!--                        android:inputType="text"-->
+<!--                        tools:ignore="LabelFor"-->
+<!--                        android:autofillHints="" />-->
+<!--                </LinearLayout>-->
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/to_prediction"
+            android:layout_below="@id/stores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:text="Continue" />
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
