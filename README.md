@@ -2,7 +2,7 @@
 
 ### Research Team
 
-The research is led by Professor Hope Michelson ([hopecm@illinois.edu](hopecm@illinois.edu)) at the Department of Agricultural and Consumer Economics (ACE) at the University of Illinois at Urbana-Champaign (UIUC).
+The research is led by Professor Hope Michelson ([hopecm@illinois.edu](hopecm@illinois.edu)) at the Department of Agricultural and Consumer Economics (ACE) at the University of Illinois at Urbana-Champaign (UIUC). Since I will be no longer in charge of this project, if you are interested in the research or the latest update for this APP, please reach out to aceuiucfertilizer@gmail.com.
 
 ### Motivation
 
